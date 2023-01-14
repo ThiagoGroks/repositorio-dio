@@ -1,18 +1,38 @@
-## Getting Started
+## Operadores
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Operadores são símbolos com significados especiais para a linguagem de programação. 
 
-## Folder Structure
+Eles realizam determinadas operações e produzem resultados específicos.
 
-The workspace contains two folders by default, where:
+# Atribuição (=)
+O sinal de atribuição (=) atribui valor a uma variável. Ele afirma que uma variável tem um valor, seja ele o tipo de dado que for.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Aritméticos (+, -, *, /, %)
+Sinais que nos resultam em operaçoes matemáticas. Podem ser feitos em conjunto uns com os outros, gerando operações mais complexas.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Atenção: para o operdor de adição (+) serve para concatenar os dados do tipo string (quando os dados forem mistos entre dados e números, o resultado pode variar, ainda que não deixe de concatenar).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Unários (+, -, !)
+Operadores que podem alterar o valor de uma expressão. 
+-O operador + acaba não sendo tão necessário, porém nós sabemos que o (-) altera o valor de uma expressão - e também pode ser usado expressando negação.
+-Incremento de valor (++) ou decremento de valor(--) são usados geralmente em funções, e os nomes são auto-exlicativos.
+-Negação lógica (!) negação em booleanos ou expressões lógicas.
 
-## Dependency Management
+#Ternário
+Determina condição para a escolha entre um ou mais valores (quase um IF), mas em uma só linha.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Relacionais
+Avaliam a relação entre duas variáveis ou expressões.
+
+- (==) são iguais?
+- (!=) são diferentes?
+- (>) é maior que?
+- (<) é menor que?
+- (>=) é maior ou igual?
+- (<=) é menor ou igual?
+
+# Lógicos
+Recursos que nos permitem criar expressões lógicas comparando dois ou mais termos.
+
+- (&&) operador lógico "E";
+- (||) operador lógico "OU";
