@@ -1,4 +1,4 @@
-## Operadores
+# Operadores
 
 Operadores são símbolos com significados especiais para a linguagem de programação. 
 
