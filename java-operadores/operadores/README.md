@@ -15,8 +15,8 @@ Atenção: para o operdor de adição (+) serve para concatenar os dados do tipo
 # Unários (+, -, !)
 Operadores que podem alterar o valor de uma expressão. 
 
-- O operador + acaba não sendo tão necessário, porém nós sabemos que o (-) altera o valor de uma expressão - e também pode ser usado expressando negação.
-- Incremento de valor (++) ou decremento de valor(--) são usados geralmente em funções, e os nomes são auto-exlicativos.
+- O operador + acaba não sendo tão necessário, porém nós sabemos que o (-) altera o valor de uma expressão, e também pode ser usado expressando negação.
+- Incremento de valor (++) ou decremento de valor(--) são usados geralmente em funções, e os nomes são auto-explicativos.
 - Negação lógica (!) negação em booleanos ou expressões lógicas.
 
 #Ternário
