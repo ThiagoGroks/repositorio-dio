@@ -1,18 +1,63 @@
-## Getting Started
+# O que são Operadores Relacionais?
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Símbolos capazes de comparar determinados operandos (minimamente 2), seguindo obviamente determinadas regras;
 
-## Folder Structure
+Temos 2 tipos de operadores relacionais:
 
-The workspace contains two folders by default, where:
+## Similaridade
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Igualdade: determina se um operando é igual ao outro (usa-se o símbolo ==);
+- Diferença: determina se um operando é diferente do outro(usa-se o síbolo !=);
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Tamanho
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Maior: determina se um operando é maior que o outro (usamos >);
+- Menor: Determina se um operando é menor que o outro (usamos <);
+- Maior ou igual: Aceita duas possibilidades (usamos >=);
+- Menor ou igual: Aqui duas possibilidades também (usamos <=).
+  
+# O que são Operadores Lógicos?
 
-## Dependency Management
+Símbolos capazes de realizar comparações lógicas entre determinados operandos lógicos (minimamente 2), seguindo obviamente determinadas regras;  
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Conjunção (&& chamado "e")
+ True se e somente se ambos os operandos são verdadeiros;
+
+ ## Disjunção (|| chamado "ou")
+ True se algum dos operandos é verdadeiro;
+
+## Disjunção exclusiva (^ chamado "xor")
+True se os operandos forem opostos (um verdadeiro e outro falso);
+
+## Negação (! entendido como "inversão")
+Inverte o valor lógico do operando ou da expressão;
+
+# Estruturas Controle de Fluxo
+Estruturas que direcionam o fluxo do código.
+
+## Decisão
+Avalia uma condição booleana ou variável para direcionar o fluxo de execução. É preferível usar o if em expessões booleanas:
+
+- if: o código se depara com uma decisão. Caso ele corresponda a condição seja verdadeira, o código segue. Do contrário ele para o código;
+- if-else: se a condição ideal não for atendida, há uma alternativa (else);
+- if-else-if: aqui há mais condições, mais caminhos possíveis. 
+
+## Criação
+
+- operador ternário (condição ? true : false;): Aqui há duas possibilidades. Em uma linha declaramos o caminho caso atenda a cada uma delas.
+
+## Escolha
+
+- switch: Escolhe entre N opções (cases não necessariamente booleanos), indicando a consequência. Caso nenhum dos cases seja atendido (default), o processo finaliza. É como um aninhamento de "if's".
+  
+## Repetição
+
+- for
+- while
+- do while
+
+## Interrupção
+
+- break
+- continue
+- return
