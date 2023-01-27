@@ -20,6 +20,10 @@ public class Main {
         Emprestimo.calcular(1000, 3);
         Emprestimo.calcular(1000, 5);
 
+        //Sobrecarga
+        Sobrecarga.area(3);
+        Sobrecarga.area(5,5);
+        Sobrecarga.area(7, 8, 9);
     }
 
 }
