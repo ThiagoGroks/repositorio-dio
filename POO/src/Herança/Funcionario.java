@@ -1,5 +1,5 @@
 package Herança;
 
-class Veiculos {
+class Funcionario {
  //Aqui os atributos e métodos.    
 }

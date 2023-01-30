@@ -47,3 +47,12 @@ instanciados objetos distintos.
 ## Herança
 É o relacionamento entre classes em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse (classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue
 reaproveitar os atributos e métodos dela. Além dos que venham a ser herdados, a subclasse pode definir seus próprios membros.
+
+## Polimorfismo
+O mesmo método (ação) se comportando de maneiras diferentes.
+
+## Sobreescrita
+O mesmo método podendo se comportar de maneira diferente.
+
+## Associação
+Há dois tipos de associação: estrutural(atributos) e comportamental(métodos).  
