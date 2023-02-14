@@ -2,8 +2,10 @@ package List;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 
 //dada uma lista de notas = {7d, 8.5, 9.3, 5d, 7d, 0d, 3.6}, faça:
  class ExSet {
@@ -43,7 +45,25 @@ import java.util.Iterator;
         }
         System.out.println(notas);
 
-        
+        System.out.println("Exiba todas as notas na ordem em que foram informadas: ");
+        Set<Double> notas2 = new LinkedHashSet<>();
+        notas2.add(7d);
+        notas2.add(8.5);
+        notas2.add(9.3);
+        notas2.add(5d);
+        notas2.add(7d);
+        notas2.add(0d);
+        notas2.add(3.6);
+        System.out.println(notas2);
+
+        System.out.println("Exiba todas as notas na ordem crescente: ");
+        Set<Double> notas3 = new TreeSet<>(notas2);
+        System.out.println(notas3);
+
+        System.out.println("Apague todo o conjunto: ");
+        notas.clear();
+
+        System.out.println("Confira se o conjunto está vazio: " + notas.isEmpty());
     }
     
 }
